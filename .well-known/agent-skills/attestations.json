@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "origin": "https://mauricioperera.github.io",
+    "skill": "site_facts",
+    "tool_sha256": "1d0c9925f6d93cbc137137e656c443b504936afe0001de55181a6f20154523b7",
+    "attester": "human:mauricio-2",
+    "signed_on": "2026-07-06",
+    "valid_until": "2027-07-06",
+    "signature": "SbcyfsJrxpSn1UpU3kWzpTbdaTzcMdUnJK+nlUwlYXHbScA3jekTEpDfologVzXxHouYfC4osBueDXuKOWt4Dg=="
+  }
+]
