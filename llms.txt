@@ -1,8 +1,0 @@
-# mauricioperera.github.io
-
-> Mauricio Perera's GitHub Pages site. Publishes an executable static skill
-> (site_facts) per the llms-txt-skills standard.
-
-## Skills
-
-- [site_facts](/skills/site_facts/SKILL.md): Return static facts about this site (owner, topics, skill count) from /facts.json. <!-- skill: {"version":"1.0.0","tool":"/skills/site_facts/tool.js","tool_sha256":"1d0c9925f6d93cbc137137e656c443b504936afe0001de55181a6f20154523b7"} -->
