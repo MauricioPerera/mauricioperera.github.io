@@ -1,9 +1,12 @@
 # mauricioperera.github.io
 
 > Mauricio Perera's GitHub Pages site. Publishes an executable static skill
-> (site_facts) per the llms-txt-skills standard.
+> (site_facts) per the llms-txt-skills standard, plus skills aggregated from
+> project sites on this origin — KDD under the `kdd` scope (Executable
+> Skills v0.5 §2.5).
 
 <!-- skills-memory: {"snapshot":"/llms-txt-skills/skills-index.snapshot","snapshot_sha256":"4fa0e90b715533354909df955b69c9b52e35cfa6087e930388c9098391955463","format":"minimemory-okf-v1"} -->
+<!-- skills-memory: {"snapshot":"/KDD/skills-index.snapshot","snapshot_sha256":"ff7b0e2bfb2b979b537c77b834c57e8477e0911471397480db2c707bdc210b9c","format":"minimemory-okf-v1","scope":"kdd"} -->
 
 ## Skills
 
@@ -11,3 +14,5 @@
 - [validate_skill_line](/llms-txt-skills/skills/validate_skill_line/SKILL.md): validate a single '## Skills' bullet line against the standard before publishing it. <!-- skill: {"version":"1.0.0","license":"MIT","sha256":"82c48c4525ff963cb4f639357013a9021a42fed1afa06a501dab85bc2d43225b","tool":"/llms-txt-skills/skills/validate_skill_line/tool.js","tool_sha256":"4b8a71ed2ca8868bea77846558ad73d35e59b3114a1a1ca8d761ace578e0c646"} -->
 - [search_knowledge](/llms-txt-skills/skills/search_knowledge/SKILL.md): BM25 search over this origin's published knowledge bundle. Use it to find which concept answers a question before fetching it. <!-- skill: {"version":"0.1.0","license":"MIT","sha256":"a093440b30bb81abafc12014a130635b6acc22c608e2dae3914511e058fbde5e","tool":"/llms-txt-skills/skills/search_knowledge/tool.js","tool_sha256":"b13a3c0448c4ee8c744b1ee33b1dd441ecc0c7c3552e23f04b5f9aaf79049ab7"} -->
 - [list_concepts](/llms-txt-skills/skills/list_concepts/SKILL.md): list every knowledge concept this origin publishes (id, type, title, description). <!-- skill: {"version":"0.1.0","license":"MIT","sha256":"3576ada3394b026b552620b009c8b3d6690995778d0cb63c4ca32fe78e793c19","tool":"/llms-txt-skills/skills/list_concepts/tool.js","tool_sha256":"457bb8545c20c2a609c9c59919617dbd6f1f9664aa7a55613b6e86cf95325bc4"} -->
+- [search_knowledge](/KDD/skills/search_knowledge/SKILL.md): BM25 search over the KDD (Knowledge Driven Development) knowledge bundle. Use it to find which concept answers a question before fetching it. <!-- skill: {"version":"0.1.0","license":"MIT","sha256":"a093440b30bb81abafc12014a130635b6acc22c608e2dae3914511e058fbde5e","tool":"/KDD/skills/search_knowledge/tool.js","tool_sha256":"b13a3c0448c4ee8c744b1ee33b1dd441ecc0c7c3552e23f04b5f9aaf79049ab7","scope":"kdd"} -->
+- [list_concepts](/KDD/skills/list_concepts/SKILL.md): list every KDD knowledge concept (id, type, title, description). <!-- skill: {"version":"0.1.0","license":"MIT","sha256":"3576ada3394b026b552620b009c8b3d6690995778d0cb63c4ca32fe78e793c19","tool":"/KDD/skills/list_concepts/tool.js","tool_sha256":"646d16725b04db492cf54e28e10bfe6a846363d80f805af03233f77885ed1a7c","scope":"kdd"} -->
